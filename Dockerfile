@@ -15,7 +15,6 @@ COPY confd-binary /usr/bin/confd
 COPY confd/confd.toml /etc/confd/confd.toml
 COPY confd/toml/* /etc/confd/conf.d/
 COPY confd/tmpl/* /etc/confd/templates/
-COPY exports /etc/exports
 COPY nfsd.sh /usr/bin/nfsd.sh
 COPY .bashrc /root/.bashrc
 
